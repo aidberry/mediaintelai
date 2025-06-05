@@ -214,6 +214,7 @@ openrouter_api_key = st.text_input(
 recommended_models = {
     "Mistral 7B Instruct": "mistralai/mistral-7b-instruct",
     "google gemini-2.0-flash-exp:free": "google/gemini-2.0-flash-exp:free",
+    "Deepseek-prover-v2": "deepseek/deepseek-prover-v2:free",
 }
 
 selected_model_display = st.selectbox(
