@@ -213,7 +213,7 @@ openrouter_api_key = st.text_input(
 # Recommended free models on OpenRouter
 recommended_models = {
     "Mistral 7B Instruct (mistralai/mistral-7b-instruct)": "mistralai/mistral-7b-instruct",
-    "Nous Hermes 2 Mixtral 8x7B SFT (nousresearch/nous-hermes-2-mixtral-8x7b-sft)": "nousresearch/nous-hermes-2-mixtral-8x7b-sft",
+    "gemma-3n-e4b": "google/gemma-3n-e4b-it:free",
 }
 
 selected_model_display = st.selectbox(
